@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.icons-container {
+    width: 100%;
+    background-color: whitesmoke;
+    overflow: auto;
+}
+
+.icons-container a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    transition: all 0.3s ease;
+    padding: 12px;
+    color: #2196f3;
+    font-size: 32px;
+}
+
+.icons-container a:hover {
+    background-color: #2196f3;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #2196f3;
+    color: white !important;
+}

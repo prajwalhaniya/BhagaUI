@@ -1,0 +1,19 @@
+{
+  "name": "bhagaui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prajwalhaniya/BhagaUI.git"
+  },
+  "author": "Prajwal Haniya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prajwalhaniya/BhagaUI/issues"
+  },
+  "homepage": "https://github.com/prajwalhaniya/BhagaUI#readme"
+}
