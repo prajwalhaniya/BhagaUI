@@ -1,0 +1,40 @@
+body {
+    margin: 2;
+    padding: 4px;
+}
+
+.tab {
+    /* The CSS overflow property controls what happens to content that is too big to fit into an area. */
+    /* overflow is clipped, and the rest of the content will be invisible */
+    overflow: hidden;
+    border: 1px solid #2196f3;
+    background-color: whitesmoke;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 14px;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.tab button:hover {
+    background-color: #2196f3;
+    color: whitesmoke !important;
+}
+
+.tab button.active {
+    background-color: #2196f3;
+    color: whitesmoke !important;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid whitesmoke;
+    border-top: none;
+}

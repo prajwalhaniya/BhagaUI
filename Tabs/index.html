@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Tabs</title>
+</head>
+<body>
+    <div class="tab">
+        <button class="tablink" onclick="openTab(event, 'tab1')">Tab1</button>
+        <button class="tablink" onclick="openTab(event, 'tab2')">Tab2</button>
+        <button class="tablink" onclick="openTab(event, 'tab3')">Tab3</button>
+
+    </div>
+    <div id="tab1" class="tabcontent">
+        <h3>Tab1 content</h3>
+        <p>This is tab1 content</p>
+    </div>
+
+    <div id="tab2" class="tabcontent">
+        <h3>Tab2 content</h3>
+        <p>This is tab2 content</p>
+    </div>
+
+    <div id="tab3" class="tabcontent">
+        <h3>Tab3 content</h3>
+        <p>This is tab3 content</p>
+    </div>
+</body>
+</html>
