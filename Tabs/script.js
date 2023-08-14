@@ -1,5 +1,4 @@
 function openTab(event, tab) {
-    console.log({ tab });
     const tabcontents = document.getElementsByClassName('tabcontent');
     const tablinks = document.getElementsByClassName('tablink');
 

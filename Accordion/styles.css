@@ -1,0 +1,25 @@
+* {
+    margin: 2;
+    padding: 4px;
+}
+
+.accordion {
+    background-color: whitesmoke;
+    cursor: pointer;
+    color: black;
+    width: 100%;
+    text-align: left;
+    padding: 18px;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+
+.panel {
+    display: none;
+    padding: 0 18px;
+    overflow: hidden;
+}
+
+
